@@ -18,6 +18,13 @@ namespace GardenBox
         public List<Plant> GetPlantList()
         {
             List<Plant> AvailablePlants = new List<Plant>();
+            SqlCommand getPlantCommand = new SqlCommand("Select PlantName, PlantsPer16ft From PlantsStats", GardenDB);
+            SqlDataReader getPlantReader = getPlantCommand.ExecuteReader();
+                while (getPlantReader.Read())
+                {
+                    AvailablePlants.Add(new Plant(getPlantReader["PlantName"].ToString(), Int16.Parse(getPlantReader["PlantsPer16ft"].ToString())));
+                }
+           
             return AvailablePlants;
         }
 
