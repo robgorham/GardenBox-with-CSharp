@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GardenBox", "GardenBox\GardenBox.csproj", "{A547DF52-91BC-45E5-992C-7C8036B1AB10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gard", "Gard\Gard.csproj", "{D905D6C2-C8E9-4E20-9CB3-C85FF3CDC07E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A547DF52-91BC-45E5-992C-7C8036B1AB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A547DF52-91BC-45E5-992C-7C8036B1AB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A547DF52-91BC-45E5-992C-7C8036B1AB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D905D6C2-C8E9-4E20-9CB3-C85FF3CDC07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D905D6C2-C8E9-4E20-9CB3-C85FF3CDC07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D905D6C2-C8E9-4E20-9CB3-C85FF3CDC07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D905D6C2-C8E9-4E20-9CB3-C85FF3CDC07E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
