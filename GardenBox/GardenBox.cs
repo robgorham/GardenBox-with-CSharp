@@ -19,7 +19,7 @@ namespace GardenBox
 
         public override string ToString()
         {
-            return $"Strain:{PlantName} Per Four Foot Square:{PlantsPer16Feet}\n";
+            return $"{PlantName}\n";
         }
 
 
@@ -37,7 +37,8 @@ namespace GardenBox
             myGarden = new List<Plant>();
             this.length = length;
             this.width = width;
-            area = length * width;
+            this.area = length * width;
+            this.perimeter = (length *2) + (width * 2);
         }
 
         public int AddPlantsToGardenBox(List<Plant> addplants)
