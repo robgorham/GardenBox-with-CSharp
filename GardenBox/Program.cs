@@ -51,7 +51,6 @@ namespace GardenBox
 
         static void Main(string[] args)
         {
-
             SqlConnection gardenDB = new SqlConnection(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\RINZLER\DOCUMENTS\ACADEMY\CODE\GARDENBOX\GARDENBOX.MDF;Integrated Security=True");
             gardenDB.Open();
             MyPlants plantbed = GetPlantBed();
