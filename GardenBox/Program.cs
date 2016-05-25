@@ -8,10 +8,6 @@ using System.Threading.Tasks;
 
 namespace GardenBox
 {
-
-
-
-
     class Program
     {
 
@@ -58,7 +54,6 @@ namespace GardenBox
 
             SqlConnection gardenDB = new SqlConnection(@"Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=C:\USERS\RINZLER\DOCUMENTS\ACADEMY\CODE\GARDENBOX\GARDENBOX.MDF;Integrated Security=True");
             gardenDB.Open();
-
             MyPlants plantbed = GetPlantBed();
             GardenBoxDB plantDATA = new GardenBoxDB(gardenDB);
             plantbed.AddPlantsToGardenBox(plantDATA.GetPlantList()); //add db to plantbed
